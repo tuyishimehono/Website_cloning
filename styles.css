@@ -33,7 +33,7 @@ nav ul li a {
     background-color: white;
     border-radius: 50px; 
     padding: 10px 20px;
-    display: flex;
+    display: absolute;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
@@ -91,6 +91,7 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
   }
   .hero .navigator form input {
     padding: 10px;
@@ -217,27 +218,6 @@ nav ul li a {
     border-radius: 20px;
     cursor: pointer;
     font-size: large;
-  }
-
-  .trip {
-    width: 100vw;
-    padding-top: 80px;
-    color: #333 !important;
-  }
-  
-  .trip .container-3 {
-    width: 90%;
-    margin: 0 auto;
-  }
-  .trip h2 {
-    padding-block: 10px;
-  }
-  .trip .trip-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    overflow-x: scroll;
   }
 
 
