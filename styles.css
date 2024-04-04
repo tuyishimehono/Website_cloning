@@ -47,7 +47,7 @@ nav ul li a {
 
 
 .hero {
-    background-image: url("landing.jpg");
+    background-image: url("landing.jpeg");
     background-repeat: no-repeat;
     backdrop-filter: grayscale(40%);
     height: 90vh;
@@ -62,7 +62,7 @@ nav ul li a {
     align-items: center;
     margin: auto;
   }
-  .hero .overlay {
+  .hero .top {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -72,7 +72,7 @@ nav ul li a {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
   }
-  .hero .landing {
+  .hero .navigator {
     padding: 3rem;
     color: #fff;
     font-size: 2rem;
@@ -80,9 +80,9 @@ nav ul li a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
+    width: 90%;
   }
-  .hero .landing form {
+  .hero .navigator form {
     margin-top: 1rem;
     background-color: #fff;
     padding: 10px;
@@ -92,7 +92,7 @@ nav ul li a {
     justify-content: space-between;
     align-items: center;
   }
-  .hero .landing form input {
+  .hero .navigator form input {
     padding: 10px;
     outline: none;
     border: 0.5px solid rgb(67, 64, 64);
@@ -100,7 +100,7 @@ nav ul li a {
     flex-basis: 30%;
     height: 3rem;
   }
-  .hero .landing form button {
+  .hero .navigator form button {
     background-color: #0d0556;
     border: 1px solid #111;
     color: #fff;
@@ -133,7 +133,7 @@ nav ul li a {
   .suggested-places .row::-webkit-scrollbar {
     display: none;
   }
-  .suggested-places .row .slide {
+  .suggested-places .row .location {
     border-radius: 20px;
     border: 0.2px solid #e1dada;
     overflow: hidden;
@@ -143,15 +143,79 @@ nav ul li a {
     display: flex;
     flex-direction: column;
   }
-  .suggested-places .row .slide img {
+  .suggested-places .row .location img {
     width: 100%;
     max-height: 130px;
     flex-basis: 80%;
   }
-  .suggested-places .row .slide .img-title {
+  .suggested-places .row .location .img-title {
     font-weight: 700;
     padding: 10px;
     font-size: 13px;
+  }
+
+   .suggested-places h1 {
+    padding-block: 15px;
+    margin-top: 25px;
+  }
+  
+   .suggested-places .row .place {
+    min-width: 320px;
+    height: 280px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+  }
+   .suggested-places .row .place img {
+    min-height: 100%;
+    max-height: 200px;
+    border-radius: 20px;
+    filter: opacity(0.9);
+    cursor: pointer;
+  }
+   .suggested-places .row .place p {
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+    bottom: 10px;
+    left: 10px;
+  }
+  
+
+  .middle {
+    width: 100vw;
+    margin-top: 200px;
+  }
+  .middle .container-2 {
+    margin-top: 30px;
+    background-image: url("holiday.jpeg");
+    background-repeat: no-repeat;
+    height: 90vh;
+    backdrop-filter: grayscale(50%);
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+   .middle .container-2 h2 {
+    font-size: 2rem;
+    padding-block: 10px;
+  }
+   .middle .container-2 p {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+   .middle .container-2 button {
+    margin-top: 15px;
+    padding: 16px 20px;
+    background-color: #120c4a;
+    outline: none;
+    color: white;
+    border: none;
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
   }
 
 
