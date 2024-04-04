@@ -216,6 +216,28 @@ nav ul li a {
     font-weight: 700;
     border-radius: 20px;
     cursor: pointer;
+    font-size: large;
+  }
+
+  .trip {
+    width: 100vw;
+    padding-top: 80px;
+    color: #333 !important;
+  }
+  
+  .trip .container-3 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .trip h2 {
+    padding-block: 10px;
+  }
+  .trip .trip-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    overflow-x: scroll;
   }
 
 
