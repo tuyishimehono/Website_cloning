@@ -33,7 +33,7 @@ nav ul li a {
     background-color: white;
     border-radius: 50px; 
     padding: 10px 20px;
-    display: absolute;
+    display: inline-flex;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
@@ -113,7 +113,7 @@ nav ul li a {
 
   .suggested-places {
     width: 100vw;
-    padding-top: 80px;
+    padding-top: 5px;
     color: #333 !important;
   }
   
@@ -187,6 +187,10 @@ nav ul li a {
     width: 100vw;
     margin-top: 200px;
   }
+  .middle .holiday{
+    width: 90%;
+    margin: 0 auto;
+  }
   .middle .container-2 {
     margin-top: 30px;
     background-image: url("holiday.jpeg");
@@ -201,10 +205,13 @@ nav ul li a {
    .middle .container-2 h2 {
     font-size: 2rem;
     padding-block: 10px;
+    color: white;
+    
   }
    .middle .container-2 p {
     font-size: 1rem;
     font-weight: 500;
+    color: white;
   }
   
    .middle .container-2 button {
