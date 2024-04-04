@@ -49,16 +49,18 @@ nav ul li a {
 .hero {
     background-image: url("landing.jpg");
     background-repeat: no-repeat;
-    backdrop-filter: grayscale(50%);
+    backdrop-filter: grayscale(40%);
     height: 90vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
   }
   
   .hero section {
     min-height: 100%;
     align-items: center;
+    margin: auto;
   }
   .hero .overlay {
     position: fixed;
@@ -106,6 +108,50 @@ nav ul li a {
     outline: none;
     border-radius: 20px;
     font-weight: 800;
+  }
+
+  .suggested-places {
+    width: 100vw;
+    padding-top: 80px;
+    color: #333 !important;
+  }
+  
+  .suggested-places .container-fluid {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .suggested-places h2 {
+    padding-block: 10px;
+  }
+  .suggested-places .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    overflow-x: scroll;
+  }
+  .suggested-places .row::-webkit-scrollbar {
+    display: none;
+  }
+  .suggested-places .row .slide {
+    border-radius: 20px;
+    border: 0.2px solid #e1dada;
+    overflow: hidden;
+    min-height: 170px;
+    max-height: 170px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  .suggested-places .row .slide img {
+    width: 100%;
+    max-height: 130px;
+    flex-basis: 80%;
+  }
+  .suggested-places .row .slide .img-title {
+    font-weight: 700;
+    padding: 10px;
+    font-size: 13px;
   }
 
 
